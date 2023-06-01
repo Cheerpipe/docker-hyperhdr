@@ -1,9 +1,9 @@
 FROM lsiobase/ubuntu:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ARG HYPERHDR_URL="https://github.com/awawa-dev/HyperHDR/releases/download"
-ARG HYPERHDR_VERSION=
-ARG ARCH=
+ARG HYPERHDR_URL="https://github.com/cheerpipe/HyperHDR/releases/download"
+ARG HYPERHDR_VERSION="v19.0.0.0"
+ARG ARCH="Linux-x86_64"
 
 RUN \
  echo "**** install packages ****" && \
